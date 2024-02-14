@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.container{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.main-heading{
+    margin-bottom: 50px;
+}
+
+.button-container{
+    display: flex;
+    gap: 50px;
+    /* align-items: center; */
+    /* border: 1px solid pink; */
+}
+
+.btn-accept{
+    background-color: #44bb55;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-reject{
+    background-color: #dd2255;
+    color: #fff;
+    padding: 10px;
+    width: fit-content;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.btn-accept-text{
+    font-size: 30px;
+}
+
+#button-id{
+    font-size: 30px;
+}
